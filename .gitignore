@@ -1,0 +1,33 @@
+# 📁 Carpeta de datos del contenedor MySQL (evita subir volúmenes)
+db-data/
+*.sql~
+
+# 📁 Archivos temporales / backups
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# ⚙️ Configuración de entorno (credenciales locales, si las usas)
+.env
+.env.local
+
+# 🐳 Docker-related
+docker-compose.override.yml
+*.pid
+*.log
+docker-compose.yml
+php/Dockerfile
+
+# 📦 Dependencias (por si luego usas Composer/NPM)
+vendor/
+node_modules/
+
+# 💻 Archivos de editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# 🧹 Archivos de sistema
+.DS_Store
+Thumbs.db
