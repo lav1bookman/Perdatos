@@ -1,5 +1,5 @@
 <?php
-// Ajusta estos valores a tu entorno
+
 $host     = 'mysql_db';
 $dbname   = 'u';
 $user     = 'laravel';
